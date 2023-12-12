@@ -10,7 +10,6 @@ const Slider = () => {
     const slideLength = sliderData.length;
   
  
-    let slideInterval;
     let intervalTime = 5000;
   
     const nextSlide = () => {
@@ -23,9 +22,7 @@ const Slider = () => {
       console.log("prev");
     };
     
-    function auto() {
-      slideInterval = setInterval(nextSlide, intervalTime);
-    }
+    
   
     useEffect(() => {
       setCurrentSlide(0);
