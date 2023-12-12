@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, LogoContainer, Wrapper, Menu, MenuItem, MenuItemLink, MobileIcon } from './Navbar.elements'
 import { DiAndroid } from "react-icons/di";
-import { FaBars, FaHome, FaUserAlt, FaBriefcase, FaGlasses,} from "react-icons/fa";
+import { FaBars, FaHome, FaUserAlt, FaBriefcase} from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { HiPhone } from "react-icons/hi";
 import { Link, Outlet } from 'react-router-dom';
